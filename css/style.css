@@ -1450,6 +1450,7 @@ a.service_item.right {
 
     #top {
         height: 0;
+        display: none;
     }
     #top header {
         height: 75px !important;
