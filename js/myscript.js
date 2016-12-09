@@ -10,7 +10,7 @@ $(window).scroll(function() {
 
   if ($(window).scrollTop() > 650) { $('#header-show-hide').slideDown(650);
   }
-  if ($(window).scrollTop() < 650) { $('#header-show-hide').slideUp(650); 
+  if ($(window).scrollTop() < 650) { $('#header-show-hide').slideUp(650);
   }
 });
 });
@@ -70,7 +70,7 @@ jQuery(document).ready(function() {
 			calculateScroll();
 		});
 		$('.navmenu ul li a, .mobile_menu ul li a, .down_btn, .about_btn').click(function() {
-			$('html, body').animate({scrollTop: $(this.hash).offset().top - 67}, 1000);
+			$('html, body').animate({scrollTop: $(this.hash).offset().top}, 1000); /* parallax scroll */
 			return false;
 		});
 	};
