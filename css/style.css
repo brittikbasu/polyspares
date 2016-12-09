@@ -683,7 +683,7 @@ a.link_rotate:focus span:before {
     z-index: -10;
     left: 0;
     top: 0;
-    width: 100%;
+    width: 90%;
     height: 100%;
     padding:20px;
     <!-- background:rgba(80, 80, 80, 0.4); -->
@@ -1450,6 +1450,7 @@ a.service_item.right {
 
     #top {
         height: 0;
+        display: none;
     }
     #top header {
         height: 75px !important;
